@@ -16,7 +16,7 @@ public class TrianguloRectangulo {
 
 	public TrianguloRectangulo(int a, int b) throws IllegalArgumentException {
 		if (a <= 0 || b <= 0) {
-			throw new IllegalArgumentException("Los catetos no pueden tener valores negativos");
+			throw new IllegalArgumentException("Los catetos no pueden obtener valores negativos");
 		}
 		this.a = a;
 		this.b = b;
